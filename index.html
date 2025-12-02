@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GuessGame</title>
+    <link href="style.css"  rel="stylesheet">
+</head>
+<body>
+    <header> 
+        <h1>Welcome to GuessGame!</h1>
+    </header>
+    <div class=" description">
+        <p>GuessGame is a fun and interactive game where players try to guess a secret number chosen by the computer. Players receive feedback on their guesses, helping them narrow down the possibilities until they find the correct number. It's a great way to challenge your intuition and have fun!</p>
+    </div>
+    <div class="container">
+         <div class="difficulty-selector">
+            <label for="difficulty">Select Difficulty:</label>
+            <select id="difficulty">
+                <option value="20">Easy (1-20)</option>
+                <option value="50" selected>Medium (1-50)</option>
+                <option value="100">Hard (1-100)</option>
+            </select>
+        </div>
+       <input type="number" id="guessInput" placeholder="Enter your guess">
+        <button>Submit Guess</button>
+        <span id="result"></span>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
