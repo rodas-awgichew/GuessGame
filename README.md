@@ -2,9 +2,6 @@
 
 A simple number guessing game built with plain HTML, CSS, and JavaScript. This project provides a small, accessible, and responsive browser game where the player tries to guess a randomly generated number within a range.
 
-Demo
-- Open `index.html` in your browser to play locally.
-- No build steps or server required.
 
 Features
 - Pick a number in a configurable range (default 1–50).
@@ -18,12 +15,9 @@ How to run locally
    ```
    git clone https://github.com/rodas-awgichew/GuessGame.git
    ```
-2. Open the project folder and double-click `index.html` or serve the folder with a static server:
+2. Open the project folder and double-click `index.html` 
    ```
-   # using Node's http-server (optional)
-   npx http-server .
-   # then visit http://localhost:8080
-   ```
+
 
 Gameplay
 - The game picks a secret number within a configured range.
@@ -39,7 +33,7 @@ File structure
 - script.js — game logic, event handlers, persistence
 - README.md — this readme
 
-How it works (short)
+How it work
 - On load, the script generates a secret number.
 - Each guess is validated and compared to the secret number.
 - Feedback is rendered and attempts are counted.
@@ -51,6 +45,3 @@ Contributions are welcome. Please open issues for bugs or feature requests and s
 
 License
 This project is provided under the MIT License. See the LICENSE file for details.
-
-Credits
-Built with ❤️ using plain HTML, CSS, and JavaScript.
