@@ -8,7 +8,6 @@ Features
 - Feedback for each guess: "Too high", "Too low", or "Correct!"
 - Track number of attempts and show best score.
 - Simple, responsive UI with keyboard and touch support.
-- Easy to customize: change range, attempt limits, styling.
 
 
 Gameplay
