@@ -10,14 +10,6 @@ Features
 - Simple, responsive UI with keyboard and touch support.
 - Easy to customize: change range, attempt limits, styling.
 
-How to run locally
-1. Clone the repository:
-   ```
-   git clone https://github.com/rodas-awgichew/GuessGame.git
-   ```
-2. Open the project folder and double-click `index.html` 
-   ```
-
 
 Gameplay
 - The game picks a secret number within a configured range.
