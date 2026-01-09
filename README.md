@@ -32,7 +32,7 @@ How it work
 
 
 Contributing
-Contributions are welcome. Please open issues for bugs or feature requests and submit pull requests for fixes or improvements. Keep changes focused and include a short description of why the change helps.
+Contributions are welcome. Please open issues for bugs or feature requests and submit pull requests for fixes or improvements. 
 
 License
 This project is provided under the MIT License. See the LICENSE file for details.
